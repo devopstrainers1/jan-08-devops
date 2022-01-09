@@ -1,0 +1,7 @@
+---
+# handlers file for devops-jan-web
+     - name: "Restart service"
+       service:
+         name: nginx
+         state: restarted
+

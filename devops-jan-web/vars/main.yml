@@ -1,0 +1,4 @@
+---
+# vars file for devops-jan-web
+webPort: 9092
+webDir: /var/www/html

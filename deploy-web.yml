@@ -1,0 +1,8 @@
+---
+- hosts: webservers
+  become: true
+  gather_facts: yes
+ 
+  roles:
+    - devops-jan-web
+
